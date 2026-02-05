@@ -1,0 +1,2 @@
+#java #programming
+- A special value used to signal the end of a data stream or a loop. It must be a value that would not otherwise occur as legitimate data (e.g., using `-1` as a sentinel for a list of positive numbers).

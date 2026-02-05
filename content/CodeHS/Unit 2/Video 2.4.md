@@ -1,0 +1,17 @@
+#java #math
+- Java uses standard operators for arithmetic.
+- **Arithmetic Operators**:
+    - `+` (Addition)
+    - `-` (Subtraction)
+    - `*` (Multiplication)
+    - `/` (Division)
+    - `%` ([[modulus]]) - finds the remainder.
+- **Increment/Decrement**:
+    - [[increment operator]] (`++`) - adds 1 to a variable.
+    - [[decrement operator]] (`--`) - subtracts 1 from a variable.
+- **Compound Assignment**:
+    - Shortcuts like `+=`, `-=`, `*=`, `/=` combine an operation with assignment.
+- **Order of Operations**: Follows standard math rules (Parentheses, then Multiplication/Division/Modulus, then Addition/Subtraction). Processes left to right for operators of the same precedence.
+- **Division Types**:
+    - [[integer division]] - dividing an [[int]] by an [[int]] results in an [[int]] (truncates the decimal).
+    - **Double Division** - if at least one number is a [[double]], the result is a [[double]].

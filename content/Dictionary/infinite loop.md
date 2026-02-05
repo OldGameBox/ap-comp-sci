@@ -1,0 +1,2 @@
+#java #loops #programming
+- A loop that continues to execute forever because its termination condition is never met. This usually happens when the loop variable is not updated correctly inside the loop body.

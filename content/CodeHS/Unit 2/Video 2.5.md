@@ -1,0 +1,13 @@
+#java #casting #variables
+- **Casting**: The process of forcing Java to treat a value of one type as another type.
+- **Types of Conversion**:
+    - [[widening conversion]] (Implicit): Automatically converting a "narrower" type (like an [[int]]) to a "wider" type (like a [[double]]). No information is lost.
+    - [[narrowing conversion]] (Explicit): Converting a "wider" type to a "narrower" type. This requires the [[cast operator]] and can result in lost information.
+- **Rounding with Casting**: Since casting a `double` to an `int` always performs [[truncation]], you can round to the nearest whole number by adding `0.5` before casting (for positive numbers).
+- **Variable Ranges**:
+    - Variables have a finite range based on the bits used to store them.
+    - [[int]] values use 32 bits, allowing for a specific range of values.
+    - Exceeding this range results in [[overflow]].
+- **Constants for Ranges**:
+    - [[Integer.MAX_VALUE]]
+    - [[Integer.MIN_VALUE]]

@@ -1,0 +1,20 @@
+#java #variables
+- A variable is like a box with a name that holds a value.
+- Variables have a **name**, a **type**, and a **value**.
+- Key actions:
+    - **Declaring**: Stating the type and name.
+    - **Initializing**: Creating the variable and setting its first value.
+    - **Assigning**: Changing the value in the "box." You do not repeat the type when re-assigning.
+- **Primitive Types**:
+    - [[int]] - for whole numbers.
+    - [[double]] - for decimal numbers.
+    - [[boolean]] - for true/false.
+    - [[char]] - for single characters.
+- **Object Types**:
+    - [[String]] - for text.
+- **Naming Rules**:
+    - Must start with a letter, `$`, or `_`.
+    - Use **lower camelCase** (e.g. `numApples`).
+    - Case sensitive.
+- **Constants**: Use the [[final]] keyword to prevent a variable from being changed.
+- **Output**: Use [[System.out.println()]] to display values. You can combine text and variables using [[concatenation]].

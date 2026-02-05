@@ -1,0 +1,1 @@
+- A class provided by CodeHS that allows programs to output text to the console instead of a graphical grid.

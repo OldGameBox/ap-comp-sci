@@ -1,0 +1,11 @@
+#java #loops
+- **General For Loops** allow for more flexibility beyond basic counting.
+- Structure: `for (initialization; test; increment) { ... }`
+- **Loop Components**:
+    - [[initialization]] - Runs once at the start (e.g., `int i = 0`).
+    - [[test]] - The condition checked before every iteration (e.g., `i <= 100`).
+    - [[increment]] - The update made after each loop execution (e.g., `i += 2`).
+- **Flexible Control**:
+    - **Counting Down**: Use the [[decrement operator]] and a greater-than [[comparison operators]] (e.g., `i--` and `i >= 0`).
+    - **Counting by Increments**: Use compound assignment like `i += 2` to count by twos or `i += 3` to count by threes.
+- You can access and print the loop variable `i` using [[System.out.println()]].
