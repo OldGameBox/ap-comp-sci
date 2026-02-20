@@ -1,0 +1,14 @@
+#java #methods
+- [[Method]] - allows you to break down code into reusable parts.
+- **Benefits**:
+    - Simplifies code and avoids repetition.
+    - Makes code easier to read and maintain.
+    - Changes made inside a method definition update everywhere the method is called.
+- **[[defining a method]]**:
+    - Syntax: `private void methodName() { ... }`
+    - Uses [[private]] and [[void]] keywords.
+    - Names should follow **lower camelCase** (refer to [[Naming Conventions.md]]).
+- **[[calling a method]]**:
+    - Syntax: `methodName();`
+    - Executes the code block defined within the method.
+- Similar to teaching Karel new commands, but used within a [[ConsoleProgram]].

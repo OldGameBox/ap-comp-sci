@@ -25,4 +25,13 @@
 	- [[Video 2.13]]
 	- [[Video 2.14]]
 	- [[Video 2.15]]
+- ### Unit 3
+	- [[Video 3.1]]
+	- [[Video 3.2]]
+	- [[Video 3.3]]
+	- [[Video 3.4]]
+	- [[Video 3.5]]
+	- [[Video 3.6]]
+	- [[Video 3.7]]
+	- [[Video 3.8]]
 # CollegeBoard
