@@ -34,4 +34,8 @@
 	- [[Video 3.6]]
 	- [[Video 3.7]]
 	- [[Video 3.8]]
+- ### Unit 4
+	- [[Video 4.1]]
+	- [[Video 4.2]]
+	- [[Additional Videos]]
 # CollegeBoard
