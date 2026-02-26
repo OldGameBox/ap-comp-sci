@@ -39,3 +39,7 @@
 	- [[Video 4.2]]
 	- [[Additional Videos]]
 # CollegeBoard
+
+# Exercises
+- [[Project 1]]
+- [[AI Collaboration]]
