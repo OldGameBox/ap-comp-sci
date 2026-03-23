@@ -16,5 +16,5 @@
     - Must start with a letter, `$`, or `_`.
     - Use **lower camelCase** (e.g. `numApples`).
     - Case sensitive.
-- **Constants**: Use the [[final]] keyword to prevent a variable from being changed.
+- **Constants**: Use the [[Dictionary/final]] keyword to prevent a variable from being changed.
 - **Output**: Use [[System.out.println()]] to display values. You can combine text and variables using [[concatenation]].

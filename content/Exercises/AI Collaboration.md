@@ -140,3 +140,5 @@ public class SmartThermostat {
     }
 }
 ```
+## Presentation
+[Google Slides](https://docs.google.com/presentation/d/1Aougkx0BgsBL48B-xvB298JyebiA176WNWwUjd7n9Vs/edit?usp=sharing)

@@ -37,5 +37,6 @@
 - ### Unit 4
 	- [[Video 4.1]]
 	- [[Video 4.2]]
+	- [[CodeHS/Unit 4/Final|Final]]
 	- [[Additional Videos]]
 # CollegeBoard
