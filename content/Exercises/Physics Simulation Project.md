@@ -1,0 +1,9 @@
+![[AP-Comp-Sci-A Physics simulation project(1).mp4]]
+### 1. How do your objects interact in your simulation?
+In the simulation, objects interact primarily through the central `Simulation` controller rather than modifying each other directly. The `Simulation` class loops through a list of `SimObject` interfaces, calculating the gravitational pull between every pair of objects using their current positions and masses. Once all of these gravitational forces are calculated as `Vector` objects, the simulation applies them collectively to update each object's velocity and position for the next frame.
+
+### 2. How does your code represent the physics concepts?
+The code encapsulates core physics concepts by using a custom `Vector` class to handle the two-dimensional mathematics required for position, velocity, and acceleration. Inside the `Planet` class, Newton's Law of Universal Gravitation is explicitly coded within the `getAttraction` method to mathematically determine the exact gravitational force between two masses. Furthermore, the `Simulation` engine represents the passage of time by stepping forward in tiny, fixed increments (`TIME_STEP`), ensuring that continuous motion is modeled accurately without skipping over collisions or orbital curves.
+
+### 3. What challenges did you face and how did you solve them?
+One major challenge was mapping the continuous, floating-point coordinates of the physics engine onto the discrete, integer-based character grid of the terminal screen. I solved this by implementing a `SCALE` constant in the `EpicPlanets` rendering loop, which divides the physical vectors down to fit within the limited rows and columns of the console. Additionally, I faced issues with smaller bodies like the moon flying off-screen due to the mechanics of Hill Spheres, which I fixed by carefully tweaking planet masses and applying counter-velocities to maintain stable orbital systems.
