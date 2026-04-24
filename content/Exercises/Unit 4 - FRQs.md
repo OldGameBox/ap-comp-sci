@@ -61,5 +61,76 @@ public int getLongestHomeWinStreak() {
     
     return longestStreak;
 }
+```
+### Part C
+##### Flight Seating
+```java
+public void upgrade(int upgradeRow, int upgradeCol)
+{
+    Passenger bestPassenger = null;
+    int maxRating = -1;
+    int bestRow = -1;
+    int bestCol = -1;
 
+    for (int r = upgradeRow + 1; r < chart.length; r++)
+    {
+        for (int c = 0; c < chart[r].length; c++)
+        {
+            if (chart[r][c] != null)
+            {
+                int currentRating = chart[r][c].getRating();
+                
+                if (currentRating > maxRating)
+                {
+                    maxRating = currentRating;
+                    bestPassenger = chart[r][c];
+                    bestRow = r;
+                    bestCol = c;
+                }
+            }
+        }
+    }
+    
+    chart[upgradeRow][upgradeCol] = bestPassenger;
+    chart[bestRow][bestCol] = null;
+}
+```
+##### Maps
+```java
+public int navigate(int startRow, int startCol)
+{
+    int currentRow = startRow;
+    int currentCol = startCol;
+    int count = 0;
+    
+    while (currentRow >= 0 && currentRow < grid.length && 
+           currentCol >= 0 && currentCol < grid[0].length) 
+    {
+        count++;
+        String direction = grid[currentRow][currentCol];
+        
+        if (direction.equals("NE")) 
+        {
+            currentRow--;
+            currentCol++;
+        } 
+        else if (direction.equals("NW")) 
+        {
+            currentRow--;
+            currentCol--;
+        } 
+        else if (direction.equals("SE")) 
+        {
+            currentRow++;
+            currentCol++;
+        } 
+        else if (direction.equals("SW")) 
+        {
+            currentRow++;
+            currentCol--;
+        }
+    }
+    
+    return count;
+}
 ```
